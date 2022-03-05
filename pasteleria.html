@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="NocturnalOFCicon.ico" sizes="16x16">
+    <title>Nocturnal_OFC</title>
+    <style>
+        body{
+background: url(https://drscdn.500px.org/photo/70151163/q%3D80_h%3D600_of%3D1/v2?sig=14e26f6d3732fd8c7ee8fdef22e2f00a39f004922cf570caff21f2baddaa4858);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+        }
+.DTS{
+    width: 150px;
+    border: 2px double aqua;
+    border-radius: 10px;
+    background-color: gray;
+    filter:alpha(opacity=70);
+    -moz-opacity:.70;opacity:.70;
+}
+.DTSP{
+    width: 150px;
+    height: 50px;
+    border: 2px double aqua;
+    border-radius: 10px;
+    background-color: gray;
+    filter:alpha(opacity=70);
+    -moz-opacity:.70;opacity:.70;
+}
+.Neon{
+    box-shadow:
+		0 0 10px aqua,
+		0 0 15px aqua,
+		0 0 25px aqua,
+		0 0 45px aqua,
+		0 0 85px aquamarine,
+		0 0 95px aquamarine;
+        width: 600px;
+        height: 400px;
+        margin: 7% 0 0 0%;
+        background-color: gray;
+        filter:alpha(opacity=70);
+        -moz-opacity:.70;opacity:.70;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <div class="Neon">
+        <form action="pasteleria.php" method="get">
+            ingresa tu nombre:<br><input class="DTS" type="text" name="nombre"><br><br>
+            ingresa tu email:<br><input class="DTS" type="text" name="email"><br>
+            Introduce tu pedido<br><input class="DTSP" type="text" name="pedido"><br>
+                <input type="submit" value="Enviar">
+        </div>
+    </center>
+</body>
+</html>
